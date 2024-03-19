@@ -1,0 +1,16 @@
+.books-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 20px;
+	list-style: none;
+}
+
+.book-item {
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+
+.book-cover {
+	max-width: 100%;
+	height: auto;
+}
